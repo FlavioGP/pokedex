@@ -38,10 +38,9 @@ main{
 
 .pokemon_data{
     position: absolute;
-    /* right: 27%; */
-    left: 39%;
+    right: 27%;
     top: 54%;
-    font-size: clamp(5px, 5vw, 25px);
+    font-size: clamp(5px, 5vw, 15px);
     color: #aaa;
     text-transform: capitalize;
 }
