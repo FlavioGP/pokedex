@@ -40,7 +40,7 @@ main{
     position: absolute;
     right: 27%;
     top: 54%;
-    font-size: clamp(5px, 5vw, 15px);
+    font-size: clamp(5px, 5vw, 25px);
     color: #aaa;
     text-transform: capitalize;
 }
@@ -88,4 +88,34 @@ main{
     border: none;
     box-shadow: inset -4px 4px 0  #222;
     font-size: clamp(5px, 3vw, 0.7rem);
+}
+
+.shiny{
+    width: 5%;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    border-radius: 50%;
+    border: none;
+}
+
+.shiny img{
+    position: absolute;
+    top: 1.5px;
+    left: 1px;
+    width: 90%;
+    border-radius: 50%;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.pokemon_mode{
+    position: absolute;
+    top: 23.5%;
+    right: 28%;
+    font-weight: bold;
+    font-size: clamp(5px, 5vw, 20px);
+    color: rgb(31, 28, 28);
 }
