@@ -1,3 +1,4 @@
+
 const pokemonImage = document.querySelector('.pokemon_image')
 const pokemonName = document.querySelector('.pokemon_name')
 const pokemonNumber = document.querySelector('.pokemon_number')

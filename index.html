@@ -4,37 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="shortcut icon" href="./favicons/pokebola.png" type="image/x-icon">
-    <script src="./js/main.js" defer ></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/favicons/pokebola.png" type="image/x-icon">
+    <script src="./assets/js/main.js" defer ></script>
     <title>Pokedex</title>
 </head>
 <body>
 
     <main>
-        <img class="pokemon_image" src="" alt="Pokemon">
+        <div class="pokedex-front">
+            <img class="pokemon_image" src="" alt="Pokemon">
 
-        <h1 class="pokemon_data">
-            <span class="pokemon_number"></span> - 
-            <span class="pokemon_name"></span>
-        </h1>
+            <h1 class="pokemon_data">
+                <span class="pokemon_number"></span> - 
+                <span class="pokemon_name"></span>
+            </h1>
 
-        <span class="pokemon_mode"></span>
+            <span class="pokemon_mode"></span>
 
-        <form action="#" class="form">
-        <input class="search" type="search" placeholder="Insert Id or Number" required>
-        </form>
+            <form action="#" class="form">
+            <input class="search" type="search" placeholder="Insert Id or Number" required>
+            </form>
 
-        <div class="buttons">
-            <button class="button btn-prev">&lt; Anterior</buttom>
-            <button class="button btn-next">Próximo &gt;</buttom>    
+            <div class="buttons">
+                <button class="button btn-prev">&lt; Anterior</buttom>
+                <button class="button btn-next">Próximo &gt;</buttom>    
+            </div>
+
+            <button class="shiny button">
+                <img id="normal" class="shiny-image" src="./assets/images/shiny.gif" alt="shiny-image">
+            </button>
+
+            <img class="pokedex" src="./assets/images/pokedex.png" alt="Pokedex">
         </div>
 
-        <button class="shiny button">
-            <img id="normal" class="shiny-image" src="./images/shiny.gif" alt="shiny-image">
-        </button>
-
-        <img class="pokedex" src="./images/pokedex.png" alt="Pokedex">
     </main>
 
 </body>

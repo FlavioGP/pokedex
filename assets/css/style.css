@@ -119,3 +119,40 @@ main{
     font-size: clamp(5px, 5vw, 20px);
     color: rgb(31, 28, 28);
 }
+
+.btn-info{
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    top: 13%;
+    right: 23%;
+    background-color: #d31940;
+}
+
+.fa-bars{
+    position: absolute;
+    top: 23%;
+    left: 28%;
+    font-size: clamp(4px, 5vw, 16px);
+    color: #fff;
+}
+
+
+
+/* .pokedex_open{
+    /* display: none; */
+    position: absolute;
+    top: 3%;
+    left: 0;
+    /* height: 94%;
+    max-width: 636px; */
+    /* z-index: -1; */
+    height: 100%;
+}
+
+.poke-infos{
+    /* display: none; */
+    height: 94%;
+    max-width: 636px;
+    background-color: red;
+} */
